@@ -1,0 +1,25 @@
+p{
+	color: green;
+	
+}
+h1{
+	color: red;
+}
+h2{
+	color: green;
+}
+
+p1{
+	color:darkgreen;
+}
+p2{
+	background-color:black;
+	color: white;
+	display: block;
+	//width: 150px;
+}
+p3{
+	background-color:darkred;
+	color: green;
+	display: inline;
+}
