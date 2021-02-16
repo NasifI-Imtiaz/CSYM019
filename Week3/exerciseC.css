@@ -1,0 +1,54 @@
+body {
+	
+display: grid;
+grid-template-columns: 25% 25% 50%;
+grid-template-rows: 40% 25% 15% 10%;
+grid-template-areas:
+
+ "header header header"
+ "nav nav nav"
+ "main main aside"
+ "footer footer footer";
+}
+
+header 
+{
+background-color: Black;
+color: yellow;
+padding: 20px;
+grid-area: header;
+
+}
+
+
+nav 
+{
+background-color: red;
+color: black;
+padding: 20px;
+grid-area: nav;
+}
+
+main 
+{
+background-color: lightblue;
+color: darkred;
+padding: 20px;
+grid-area: main;
+}
+
+aside 
+{
+background-color: lightpink;
+color: darkblue;
+padding: 20px;
+grid-area: aside;
+}
+
+footer 
+{
+background-color: darkgreen;
+color: white;
+padding: 20px;
+grid-area: footer;
+}
